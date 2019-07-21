@@ -19,5 +19,8 @@ class TestFunctions(unittest.TestCase):
     def test_full_name(self):
         self.assertEqual("Doe, John", get_full_name("John", "Doe"))
 
+    def test_fib(self):
+        self.assertEqual(8, fib(5))
+
 if __name__ == '__main__':
     unittest.main()

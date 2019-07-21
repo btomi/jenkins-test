@@ -28,8 +28,15 @@ def get_full_name(firstname, lastname):
     """
     return lastname + ", " + firstname
 
+def fib(n):
+    if n<=1:
+        return 1
+    else:
+        return fib(n-2)+fib(n-1)
+
 def main():
     add_multiple_values(1,2,3,4,5)
+    fib(4)
 
 if __name__ == '__main__':
     main()
