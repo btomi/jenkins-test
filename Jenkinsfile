@@ -1,6 +1,6 @@
 node('master') {
     stage("Fetch Source Code") {
-        git 'https://github.com/TrainingByPackt/Beginning-Jenkins.git'
+        git 'https://github.com/btomi/jenkins-test.git'
     }
     
     dir('.') {
